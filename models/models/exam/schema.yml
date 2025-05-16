@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: music
+    database: MUSIC_WH
+    schema: MUSIC_SCHEMA
+    tables:
+      - name: artist
+      - name: album
+      - name: genre
+      - name: mediatype
+      - name: track
+      - name: playlist
+      - name: playlisttrack
